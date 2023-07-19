@@ -49,7 +49,7 @@ export function Home() {
   return (
     <main className="w-full bg-dark font-title">
       <div className=" bg- pt-48 text-center text-white h-screen">
-        <img  className="w-56 sm:w-80 mx-auto border-2 border-green-500 rounded-full bg-brand" src="/src/assets/brand.png" alt="foto da avatar"/>
+        <img  className="w-56 sm:w-80 mx-auto border-2 border-green-500 rounded-full bg-brand" src="/assets/brand.png" alt="foto da avatar"/>
         <h1 className="text-6xl sm:text-7xl">Hello!, eu sou o Carlos</h1>
         <p className="text-4xl pb-16">Desenvolvedor Front-end</p>
 
@@ -78,7 +78,7 @@ export function Home() {
             </p>
 
           <div className="xl:flex xl:items-center xl:gap-8">
-            <img className="w-72 m-auto py-20 lg:py-5" src="src/assets/profile.png" alt="" />
+            <img className="w-72 m-auto py-20 lg:py-5" src="assets/profile.png" alt="" />
 
             <div className="text-center xl:flex xl:items-center xl:flex-col">
               <div className="flex justify-center gap-8 pb-10">
@@ -87,7 +87,7 @@ export function Home() {
                 <button className="bg-white text-4xl text-black rounded-lg p-2 cursor-pointer transition-all hover:-translate-y-2 hover:-translate-x-1"><a href="https://www.linkedin.com/in/vithor-santos"> <LinkedinLogo/> </a></button>
               </div>
               
-                <button className="bg-white text-2xl text-black rounded-full py-2 px-10 cursor-pointer transition-all hover:-translate-y-2 hover:-translate-x-1"><a href="">Meu Curriculum</a></button>
+                <button className="bg-white text-2xl text-black rounded-full py-2 px-10 cursor-pointer transition-all hover:-translate-y-2 hover:-translate-x-1"><a href="/src/assets/Curriculum.pdf" download>Meu Curriculum</a></button>
           </div>
           </div>
             
@@ -248,7 +248,7 @@ export function Home() {
 
       <footer className="md:px-20 md:flex md:justify-between lg:justify-around items-center text-white pt-3 border-t border-gray-500">
         <div className="flex items-center justify-center">
-          <img className="w-24" src="src/assets/logo.png" alt="" />
+          <img className="w-24" src="/src/assets/logo.png" alt="" />
           <div className="flex gap-8 ml-4">
             <button className="bg-white text-2xl text-black rounded-lg px-2 cursor-pointer transition-all hover:-translate-y-2 hover:-translate-x-1"><a href="https://github.com/vithorDeveloper"  target="blank"> <GithubLogo/> </a></button>
             <button className="bg-white text-2xl text-black rounded-lg p-2 cursor-pointer transition-all hover:-translate-y-2 hover:-translate-x-1"><a href="mailto:vithorsantos1029@gmail.com"  target="blank"> <Envelope/> </a></button>
