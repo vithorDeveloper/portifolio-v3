@@ -3,7 +3,7 @@ import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaNodeJs,FaDatabase, FaCodeBra
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { SiExpress, SiStyledcomponents } from "react-icons/si";
 import { useRef, useEffect, useState } from "react";
-import { Skill } from "./components/Skills/index";
+import { Skill } from "./components/skills/index";
 import { Project } from "./components/projects/index";
 
 export function Home() {
