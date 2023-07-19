@@ -49,7 +49,7 @@ export function Home() {
   return (
     <main className="w-full bg-dark font-title">
       <div className=" bg- pt-48 text-center text-white h-screen">
-        <img  className="w-56 sm:w-80 mx-auto border-2 border-green-500 rounded-full bg-brand" src="./assets/brand.png" alt="foto da avatar"/>
+        <div  className="w-56 sm:bg-cover sm:bg-center sm:w-80 sm:h-80 sm:p-10 mx-auto border-2 border-green-500 rounded-full bg-brand"></div>
         <h1 className="text-6xl sm:text-7xl">Hello!, eu sou o Carlos</h1>
         <p className="text-4xl pb-16">Desenvolvedor Front-end</p>
 
@@ -74,7 +74,7 @@ export function Home() {
             </p>
 
             <div className="xl:flex xl:items-center xl:gap-8">
-              <img className="w-72 m-auto py-20 lg:py-5" src="./assets/profile.png" alt="foto do carlos" />
+              <div className="w-72 m-auto py-20 lg:py-5 bg-profile sm:bg-cover sm:bg-center sm:w-80 sm:h-80 sm:p-10"></div>
 
               <div className="text-center xl:flex xl:items-center xl:flex-col">
                 <div className="flex justify-center gap-8 pb-10">
@@ -248,7 +248,7 @@ export function Home() {
       <footer className="md:px-20 md:flex md:justify-between lg:justify-around items-center text-white pt-3 border-t border-gray-500">
         <div className="flex items-center justify-center">
 
-          <img className="w-24" src="./assets/logo.png" alt="" />
+          <div className="w-24 bg-logo sm:bg-contain sm:bg-center sm:bg-no-repeat sm:p-10"></div>
 
           <div className="flex gap-8 ml-4">
             <button className="bg-white text-2xl text-black rounded-lg px-2 cursor-pointer transition-all hover:-translate-y-2 hover:-translate-x-1"><a href="https://github.com/vithorDeveloper"  target="blank"> <GithubLogo/> </a></button>
