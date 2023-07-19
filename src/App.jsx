@@ -92,7 +92,7 @@ export function Home() {
       </section>
 
       <section className="bg-skills bg-no-repeat bg-cover text-center py-20">
-        <h1 className="text-zinc-200 text-8xl font-bold">Skills</h1>
+        <h1 className="text-zinc-200 text-7xl sm:text-8xl font-bold">Skills</h1>
 
         <div className="md:flex xl:text-left">
           <Skill
@@ -196,7 +196,7 @@ export function Home() {
       </section>
 
       <section className="text-center m-auto px-4 bg-gradient-to-r from-rose-950 via-red-900 to-red-950">
-        <h1 className="text-white text-8xl text-center font-bold py-16">Projetos</h1>
+        <h1 className="text-white text-7xl sm:text-8xl text-center font-bold py-16">Projetos</h1>
 
         <div className="flex flex-col justify-center items-center lg:gap-20 lg:grid lg:grid-cols-2 xl:grid-cols-3">
           <Project
